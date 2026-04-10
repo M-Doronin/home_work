@@ -12,3 +12,21 @@ def task_1() -> None:
     print(f"Тип переменной my_bool: {type(my_bool)}")
 
 task_1()
+
+
+def task_2() -> None:
+
+    a = [1, 2, 3, 5, 8, 13, 21]
+
+    print("Первые 3 значения списка:", a[:3])
+
+
+task_2()
+
+
+def task_3(number: float) -> float:
+
+    return number ** 2
+
+print("Квадрат числа 5:", task_3(5))
+print("Квадрат числа 3.5:", task_3(3.5))
